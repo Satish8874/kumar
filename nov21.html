@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+debugger;
+  //1.write a program to print numbers by using  named function.     
+        function hello(a){
+   for(i=0;i<=a;i=i+2){
+console.log(i) 
+   }
+}
+   hello(10)
+
+   //2.write a program to print even numbers by using anonymous function
+
+   let even=function(a){
+    for(i=0;i<=a;i=i+2){
+        console.log(i)
+    }
+}
+even(10);
+//3.write a program to print even numbers by using arrow function
+
+var hello=(a)=>{
+    for(i=0;i<=a;i=i+2){
+        console.log(i);
+    }
+}
+hello(10);
+
+//4.IIME
+(function(a){
+    for(i=0;i<=a;i=i+2){
+        console.log(i);
+        
+    }
+})(10);
+
+    </script>
+    
+</body>
+</html>
